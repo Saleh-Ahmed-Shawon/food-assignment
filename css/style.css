@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 .orange-color{
-    color: orange;
+    color: orangered;
 }
 h1{
     font-size: 50px;
@@ -99,4 +99,39 @@ p{
 }
 .one-third-width p{
    width: 280px;
+}
+
+
+.social-container{
+    display: flex;
+    margin: 10%;
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 20px;
+}
+.social-div{
+    float: left;
+    padding: 100px;
+}
+.social h2{
+    color: black;
+}
+
+footer{
+    padding-top: 20px;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+footer h3{
+    color: gray;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+.social-img{
+    width: 100px;
+    height: auto;
 }
