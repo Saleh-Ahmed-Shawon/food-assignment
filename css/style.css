@@ -1,24 +1,33 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
 }
 .orange-color{
     color: orange;
 }
 h1{
     font-size: 50px;
+    color: gray;
+    font-weight: bolder;
+}
+h2{
+    font-size: 40px;
+    color: gray;
+}
+p{
+    text-align: justify;
 }
 .header{
     display: flex;
     margin: 5%;
+   
 }
 .half-width{
     width: 50%;
     float: left;
 }
 .header-paragraph{
-    text-align: justify;
+    
     padding-right: 10%;
     margin-bottom: 50px;
 
@@ -31,7 +40,29 @@ h1{
 .btn{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(orange , orangered);
+    background-image: linear-gradient(red , orange);
     padding: 15px 40px;
-    border-radius: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.about-me{
+    margin-top: -100px;
+    display: flex;
+    width: 100%;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-div{
+    float: left;
+    width: 55%;
+    margin-top: 250px;
+}
+.about-img{
+    width: 60%;
+    padding-left: 20%;
+}
+.about-paragraph{
+    padding-right: 20%;
+    margin-bottom: 100px;
 }
